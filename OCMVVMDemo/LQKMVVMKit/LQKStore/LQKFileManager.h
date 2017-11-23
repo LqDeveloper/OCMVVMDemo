@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "LQKUserMacro.h"
 @interface LQKFileManager : NSObject
 
 LQKSingletonH
