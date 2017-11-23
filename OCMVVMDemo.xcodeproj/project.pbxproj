@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A4E00ED1FC2E8500040386A /* LQKNetworManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E00EC1FC2E8500040386A /* LQKNetworManager.m */; };
 		5A4E00F01FC2E86B0040386A /* LQKFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E00EF1FC2E86B0040386A /* LQKFileManager.m */; };
 		5A55F2941FBEC439009EA49B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55F2931FBEC439009EA49B /* AppDelegate.m */; };
 		5A55F29A1FBEC439009EA49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A55F2981FBEC439009EA49B /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		5A55F2B71FBEC439009EA49B /* OCMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55F2B61FBEC439009EA49B /* OCMVVMDemoUITests.m */; };
 		5A55F2D11FBEF259009EA49B /* UIView+LQKViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A55F2D01FBEF259009EA49B /* UIView+LQKViewCategory.m */; };
 		5A93AA761FC403E300991649 /* LQKVerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A93AA751FC403E300991649 /* LQKVerticalLabel.m */; };
+		5A9D500B1FC53E0F007B0BAE /* LQKNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D500A1FC53E0F007B0BAE /* LQKNetworkManager.m */; };
 		5AB758F41FC2AC4200A79815 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB758F31FC2AC4200A79815 /* FirstViewController.m */; };
 		5AB758F71FC2AC5C00A79815 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB758F61FC2AC5C00A79815 /* SecondViewController.m */; };
 		5AB758FA1FC2ADDA00A79815 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB758F91FC2ADDA00A79815 /* FirstView.m */; };
@@ -28,6 +28,7 @@
 		5AB759191FC2DECA00A79815 /* LQKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB759151FC2DECA00A79815 /* LQKTabBarController.m */; };
 		5AB7591A1FC2DECA00A79815 /* LQKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB759161FC2DECA00A79815 /* LQKNavigationController.m */; };
 		5AC7F6991FC41939008A300F /* LQKHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7F6981FC41939008A300F /* LQKHandleTool.m */; };
+		5AEB10B51FC677AD0057B812 /* FileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB10B41FC677AD0057B812 /* FileManagerViewController.m */; };
 		EF97DC9436D8D2AA9090B29D /* libPods-OCMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD81C1F59F009A72EF856F /* libPods-OCMVVMDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +51,6 @@
 
 /* Begin PBXFileReference section */
 		194751B87BF20B9BC8E7EACD /* Pods-OCMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCMVVMDemo/Pods-OCMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5A4E00EB1FC2E8500040386A /* LQKNetworManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQKNetworManager.h; sourceTree = "<group>"; };
-		5A4E00EC1FC2E8500040386A /* LQKNetworManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQKNetworManager.m; sourceTree = "<group>"; };
 		5A4E00EE1FC2E86B0040386A /* LQKFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQKFileManager.h; sourceTree = "<group>"; };
 		5A4E00EF1FC2E86B0040386A /* LQKFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQKFileManager.m; sourceTree = "<group>"; };
 		5A55F28F1FBEC439009EA49B /* OCMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +72,8 @@
 		5A55F2D01FBEF259009EA49B /* UIView+LQKViewCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LQKViewCategory.m"; sourceTree = "<group>"; };
 		5A93AA741FC403E300991649 /* LQKVerticalLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQKVerticalLabel.h; sourceTree = "<group>"; };
 		5A93AA751FC403E300991649 /* LQKVerticalLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQKVerticalLabel.m; sourceTree = "<group>"; };
+		5A9D50091FC53E0F007B0BAE /* LQKNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQKNetworkManager.h; sourceTree = "<group>"; };
+		5A9D500A1FC53E0F007B0BAE /* LQKNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQKNetworkManager.m; sourceTree = "<group>"; };
 		5AB758F21FC2AC4200A79815 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		5AB758F31FC2AC4200A79815 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		5AB758F51FC2AC5C00A79815 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -98,6 +99,8 @@
 		5AB759171FC2DECA00A79815 /* LQKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQKNavigationController.h; sourceTree = "<group>"; };
 		5AC7F6971FC41939008A300F /* LQKHandleTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQKHandleTool.h; sourceTree = "<group>"; };
 		5AC7F6981FC41939008A300F /* LQKHandleTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQKHandleTool.m; sourceTree = "<group>"; };
+		5AEB10B31FC677AD0057B812 /* FileManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManagerViewController.h; sourceTree = "<group>"; };
+		5AEB10B41FC677AD0057B812 /* FileManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileManagerViewController.m; sourceTree = "<group>"; };
 		68BD81C1F59F009A72EF856F /* libPods-OCMVVMDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCMVVMDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FE3D683FDC26BF74536E4F /* Pods-OCMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCMVVMDemo/Pods-OCMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,8 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				5AB759061FC2CFB800A79815 /* LQKRequestBlockMacro.h */,
-				5A4E00EB1FC2E8500040386A /* LQKNetworManager.h */,
-				5A4E00EC1FC2E8500040386A /* LQKNetworManager.m */,
+				5A9D50091FC53E0F007B0BAE /* LQKNetworkManager.h */,
+				5A9D500A1FC53E0F007B0BAE /* LQKNetworkManager.m */,
 			);
 			path = LQKRequest;
 			sourceTree = "<group>";
@@ -302,6 +305,8 @@
 				5AB758F31FC2AC4200A79815 /* FirstViewController.m */,
 				5AB758F51FC2AC5C00A79815 /* SecondViewController.h */,
 				5AB758F61FC2AC5C00A79815 /* SecondViewController.m */,
+				5AEB10B31FC677AD0057B812 /* FileManagerViewController.h */,
+				5AEB10B41FC677AD0057B812 /* FileManagerViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -520,12 +525,13 @@
 				5AB7591A1FC2DECA00A79815 /* LQKNavigationController.m in Sources */,
 				5A55F2D11FBEF259009EA49B /* UIView+LQKViewCategory.m in Sources */,
 				5A93AA761FC403E300991649 /* LQKVerticalLabel.m in Sources */,
+				5A9D500B1FC53E0F007B0BAE /* LQKNetworkManager.m in Sources */,
 				5AB7590D1FC2D73000A79815 /* NSObject+LQKoding.m in Sources */,
 				5A4E00F01FC2E86B0040386A /* LQKFileManager.m in Sources */,
 				5AB758F41FC2AC4200A79815 /* FirstViewController.m in Sources */,
 				5A55F2A21FBEC439009EA49B /* main.m in Sources */,
+				5AEB10B51FC677AD0057B812 /* FileManagerViewController.m in Sources */,
 				5AB758FA1FC2ADDA00A79815 /* FirstView.m in Sources */,
-				5A4E00ED1FC2E8500040386A /* LQKNetworManager.m in Sources */,
 				5AB759191FC2DECA00A79815 /* LQKTabBarController.m in Sources */,
 				5A55F2941FBEC439009EA49B /* AppDelegate.m in Sources */,
 				5AC7F6991FC41939008A300F /* LQKHandleTool.m in Sources */,

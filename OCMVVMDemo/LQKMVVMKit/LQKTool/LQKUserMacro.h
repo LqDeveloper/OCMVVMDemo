@@ -39,7 +39,7 @@
 
 //DEBUG  模式下打印日志,当前行
 #ifdef DEBUG
-#   define LQDLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#   define LQKLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
 #   define LQDLog(...)
 #endif
