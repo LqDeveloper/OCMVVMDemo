@@ -27,6 +27,7 @@
 		5AB759181FC2DECA00A79815 /* LQKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB759141FC2DECA00A79815 /* LQKRootViewController.m */; };
 		5AB759191FC2DECA00A79815 /* LQKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB759151FC2DECA00A79815 /* LQKTabBarController.m */; };
 		5AB7591A1FC2DECA00A79815 /* LQKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB759161FC2DECA00A79815 /* LQKNavigationController.m */; };
+		5AC1DE7F20158F6800CDDCB1 /* NSObject+LQKProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC1DE7E20158F6800CDDCB1 /* NSObject+LQKProperty.m */; };
 		5AC7F6991FC41939008A300F /* LQKHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7F6981FC41939008A300F /* LQKHandleTool.m */; };
 		5AEB10B51FC677AD0057B812 /* FileManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB10B41FC677AD0057B812 /* FileManagerViewController.m */; };
 		EF97DC9436D8D2AA9090B29D /* libPods-OCMVVMDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BD81C1F59F009A72EF856F /* libPods-OCMVVMDemo.a */; };
@@ -97,6 +98,8 @@
 		5AB759151FC2DECA00A79815 /* LQKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQKTabBarController.m; sourceTree = "<group>"; };
 		5AB759161FC2DECA00A79815 /* LQKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LQKNavigationController.m; sourceTree = "<group>"; };
 		5AB759171FC2DECA00A79815 /* LQKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQKNavigationController.h; sourceTree = "<group>"; };
+		5AC1DE7D20158F6800CDDCB1 /* NSObject+LQKProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LQKProperty.h"; sourceTree = "<group>"; };
+		5AC1DE7E20158F6800CDDCB1 /* NSObject+LQKProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LQKProperty.m"; sourceTree = "<group>"; };
 		5AC7F6971FC41939008A300F /* LQKHandleTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LQKHandleTool.h; sourceTree = "<group>"; };
 		5AC7F6981FC41939008A300F /* LQKHandleTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LQKHandleTool.m; sourceTree = "<group>"; };
 		5AEB10B31FC677AD0057B812 /* FileManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManagerViewController.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 		5A55F2C71FBEC87F009EA49B /* LQKCategory */ = {
 			isa = PBXGroup;
 			children = (
+				5AC1DE7D20158F6800CDDCB1 /* NSObject+LQKProperty.h */,
+				5AC1DE7E20158F6800CDDCB1 /* NSObject+LQKProperty.m */,
 				5A55F2CF1FBEF259009EA49B /* UIView+LQKViewCategory.h */,
 				5A55F2D01FBEF259009EA49B /* UIView+LQKViewCategory.m */,
 				5AB7590B1FC2D73000A79815 /* NSObject+LQKCoding.h */,
@@ -525,6 +530,7 @@
 				5AB7591A1FC2DECA00A79815 /* LQKNavigationController.m in Sources */,
 				5A55F2D11FBEF259009EA49B /* UIView+LQKViewCategory.m in Sources */,
 				5A93AA761FC403E300991649 /* LQKVerticalLabel.m in Sources */,
+				5AC1DE7F20158F6800CDDCB1 /* NSObject+LQKProperty.m in Sources */,
 				5A9D500B1FC53E0F007B0BAE /* LQKNetworkManager.m in Sources */,
 				5AB7590D1FC2D73000A79815 /* NSObject+LQKoding.m in Sources */,
 				5A4E00F01FC2E86B0040386A /* LQKFileManager.m in Sources */,
